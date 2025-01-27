@@ -22,10 +22,10 @@ Antes de poder ejecutar la infraestructura debes tener instalado y configurado l
 4. Luego de realizar estos pasos podemos entrar a nuestra terminal (en mi caso estoy usando git bash) y nos dirigimosa a nuestro proyecto y en cada directorio de cada entorno dev y prod realizaremos
    ejecuataremos los siguiente comando para inicializar terraform:
 
-  >[!NOTE]
-  >Debes ejecutar este comando en cada uno de los entorno desarrollo y produccion
+   >[!NOTE]
+   >Debes ejecutar este comando en cada uno de los entorno desarrollo y produccion
 
-  ```bash
-  terraform init
-  ```
-  ![image](https://github.com/user-attachments/assets/f977a339-950b-4270-90c7-12ceb3e29832)
+   ```bash
+   terraform init
+   ```
+   ![image](https://github.com/user-attachments/assets/f977a339-950b-4270-90c7-12ceb3e29832)
