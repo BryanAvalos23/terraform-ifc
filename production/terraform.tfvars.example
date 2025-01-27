@@ -1,0 +1,3 @@
+ohio = "Coloca aqui la region"
+cidr_block = "bloque cidr de la red"
+name       = "nombre de la vpc"

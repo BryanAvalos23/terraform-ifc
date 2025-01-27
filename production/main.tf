@@ -10,3 +10,9 @@ terraform {
 provider "aws" {
   region = var.ohio
 }
+
+module "vpc" {
+  source     = "../modules/vpc"
+  cidr_block = var.cidr_block
+  name       = var.name
+}
