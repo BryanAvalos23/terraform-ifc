@@ -15,9 +15,11 @@ Antes de poder ejecutar la infraestructura debes tener instalado y configurado l
 2. Debemos agregar el archivo terraform.tfvars en nuestros entornos dev y prod. Porque aqui colocaremos nuestras variables con su valor. Encontraras un archivo terraform.tfvars.example en cada entorno
    copia las variables y pegalas en tu archivo terraform.tfvars que has creado en tu directorio. Recuerda cada entorno puede tener variables diferentes por lo que no copies y pegues los valores de de otro
    entorno para evitar errores al realizar el despliegue.
-3. Una ves que hayamos realizado los pasos anteriores debemos ver nuestros entornos de la sigueinte manera:
+3. Una ves que hayamos realizado los pasos anteriores debemos ver nuestros entornos de la siguiente manera:
+   
 ![image](https://github.com/user-attachments/assets/8564299f-9413-43ec-a7c4-722148b47c23)
-5. Luego de realizar estos pasos podemos entrar a nuestra terminal (en mi caso estoy usando git bash) y nos dirigimosa a nuestro proyecto y en cada directorio de cada entorno dev y prod realizaremos
+
+4. Luego de realizar estos pasos podemos entrar a nuestra terminal (en mi caso estoy usando git bash) y nos dirigimosa a nuestro proyecto y en cada directorio de cada entorno dev y prod realizaremos
    ejecuataremos los siguiente comando para inicializar terraform:
 
   >[!NOTE]
